@@ -1,5 +1,4 @@
 const {shuffleArray} = require('./utils')
-const {arrCopy} = require('./utils')
 
 
 
@@ -14,6 +13,10 @@ test("shuffleArray should return an array" , () => {
     expect([shuffleArray]).toContainEqual(shuffleArray)
 
 }) ; 
+
+test("shuffleArray is the same length as the argument passed in " , () => {
+    expect(shuffleArray.length).toEqual[5]
+})
 
 
 
